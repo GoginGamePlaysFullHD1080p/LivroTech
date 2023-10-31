@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivroTech</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../img/icon.png">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="menu-button" onclick="toggleDropdown()"><img src="../img/menu.1.png" alt=""></div>
+            <div class="dropdown-content" id="dropdown">
+                <a href="../html/index.html">Inicio</a>
+                <a href="../html/biblioteca.html">Biblioteca</a>
+                <a href="../html/conta.html">Conta</a>
+            </div>
+        </div>
+        <h1>LivroTech</h1>
+        <form action="" method="">
+            <input type="text" id="pesquisa" name="q" placeholder="Pesquiza no LivroTech" />
+            <input type="submit" value="Pesquisar" />
+        </form>
+        <ul>
+            <li><a href="../index.html">Categorias</a></li>
+            <li><a href="../html/error.html">Ofertas</a></li>
+            <li><a href="../html/error.html">Mais vendidos</a></li>
+        </ul>
+             
+    </header>
+
+    <main>
+        <h2>O Pequeno Principe</h2>
+        <img src="../img/img7.jpg" alt="" class="livrio1">
+        <div>
+            <h3 class="separacao-h"><strong>Descrição:</strong></h3>
+            <p><strong>Conheça a edição mais consagrada de um dos maiores clássicos da literatura, publicada no Brasil desde 1952, com a tradução do poeta dom Marcos Barbosa e as ilustrações originais em aquarela do autor.</strong></p>
+            <p>Nesta história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma aventura filosófica e poética através de planetas que encerram a solidão humana.</p>
+            <p>Um livro para todos os públicos, O pequeno príncipe é uma obra atemporal, com metáforas pertinentes e aprendizados sobre afeto, sonhos, esperança e tudo aquilo que é invisível aos olhos</p>
+        </div>
+        <h3 class="separacao-h"><strong>Autor:</strong> Antoine de Saint-Exupéry</h3>
+        <h3 class="separacao-h"><strong>Gêneros:</strong> Literatura infantil, Fábula, Novela, Ficção especulativa</h3>
+        <h3 class="separacao-h"><strong class="preço">R$ 15,90</strong></h3>
+        <h3 class="comprar"><a onclick="executarAcao('acao1')">Comprar</a></h3>
+    </main>
+
+</body>
+
+<script src="../js/script.js"></script>
+
+</html>

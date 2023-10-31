@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'minhaFonte1';
+    src: url(../Fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+@font-face {
+    font-family: 'minhaFonte2';
+    src: url(../Fonts/Sometype_Mono/SometypeMono-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'minhaFonte2';
+    margin: none;
+    border: none;
+}
+
+header{
+    background-color: aquamarine;  
+    padding: 5px;  
+}
+
+header h1{
+    font-family: 'minhaFonte1';
+    display: inline;
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+header form{
+    text-align: center;
+    
+}
+
+#pesquisa{
+    width: 70%;
+}
+
+ul li{
+    display: inline-block;
+    background-color: #056547;
+    padding: 5px;
+    margin: 5px 0 0 0;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para o menu */
+.menu {
+    position: relative;
+    display: inline;
+    padding: 10px;
+}
+
+/* Estilo para o botão do menu */
+.menu-button {
+    display: inline;
+    padding: 0;
+    cursor: pointer;
+}
+.menu-button img{
+    width: 2em;
+    padding: auto;
+}
+
+/* Estilo para a lista suspensa */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Estilo para os itens da lista suspensa */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Mudar a cor do link quando o mouse passa sobre ele */
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+/*Botões expostos*/
+.toolbar{
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.toolbar button {
+    background-color: #059366;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h2, h3{
+    margin-left: 5px;
+}
+
+
+.livrio1{
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+p{
+    padding: 5px 1em;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.separacao-h{
+    padding: 0.5em;
+}
+
+.preço{
+    color: #098E00;
+}
+
+.comprar{
+    display: inline-block;
+    padding: 0.5em;
+    background-color: #056547;
+    padding: 5px;
+    margin: 0.5em 1em;
+}
+
+.comprar a{
+    color: white;
+    text-decoration: none;
+}
